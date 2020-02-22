@@ -3,17 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8a2799c8-4108-498f-8ec2-8d0561065bc6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arsenal/IAffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arsenal/IAffect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/characters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Fighter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ArenaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArenaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FighterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FighterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IAffectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IAffectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Arena.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/arsenal/IAffect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arsenal/IAffect.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/characters/Fighter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/Fighter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ArenaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ArenaTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/FighterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FighterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/IAffectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IAffectTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,20 +50,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArenaTest">
-    <configuration name="All in java_lab_adventure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_lab_adventure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FighterTest">
     <configuration name="ArenaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_lab_adventure" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ArenaTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArenaTest.fighterLosesLessHealthWithArmour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_lab_adventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ArenaTest" />
+      <option name="METHOD_NAME" value="fighterLosesLessHealthWithArmour" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,31 +79,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HealerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FighterTest.canAddWeaponsToGoodie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_lab_adventure" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HealerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="FighterTest" />
+      <option name="METHOD_NAME" value="canAddWeaponsToGoodie" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IAffectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FighterTest.canConfirmIfEnemyHasASpecificWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_lab_adventure" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IAffectTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="FighterTest" />
+      <option name="METHOD_NAME" value="canConfirmIfEnemyHasASpecificWeapon" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArenaTest" />
-        <item itemvalue="JUnit.All in java_lab_adventure" />
         <item itemvalue="JUnit.FighterTest" />
-        <item itemvalue="JUnit.IAffectTest" />
-        <item itemvalue="JUnit.HealerTest" />
+        <item itemvalue="JUnit.FighterTest.canConfirmIfEnemyHasASpecificWeapon" />
+        <item itemvalue="JUnit.FighterTest.canAddWeaponsToGoodie" />
+        <item itemvalue="JUnit.ArenaTest.fighterLosesLessHealthWithArmour" />
+        <item itemvalue="JUnit.ArenaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -145,50 +144,54 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="483" y="160" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1582294434492" />
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1582373733296">
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1582388471361">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582310943344" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1582329732905" />
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582373733296" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1582373733294">
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582388471361" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1582388471359">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582310943340" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1582329732904" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582373733294" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1582373733293">
+    <state width="1398" height="208" key="GridCell.Tab.0.center/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582388471359" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1582388471358">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582310943339" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1582329732903" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582373733293" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1582373733295">
+    <state width="1398" height="208" key="GridCell.Tab.0.left/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582388471358" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1582388471360">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582310943343" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1582329732904" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582373733295" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1582329732907">
+    <state width="1398" height="208" key="GridCell.Tab.0.right/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582388471360" />
+    <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1582375963089">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582294451551" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.810@0.23.1440.810" timestamp="1582329732907" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1582329732906">
+    <state width="1398" height="258" key="GridCell.Tab.1.bottom/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582375963089" />
+    <state width="1398" height="258" key="GridCell.Tab.1.center" timestamp="1582375963088">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582294451550" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.810@0.23.1440.810" timestamp="1582329732906" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1582329732905">
+    <state width="1398" height="258" key="GridCell.Tab.1.center/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582375963088" />
+    <state width="1398" height="258" key="GridCell.Tab.1.left" timestamp="1582375963088">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582294451549" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.810@0.23.1440.810" timestamp="1582329732905" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1582329732906">
+    <state width="1398" height="258" key="GridCell.Tab.1.left/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582375963088" />
+    <state width="1398" height="258" key="GridCell.Tab.1.right" timestamp="1582375963089">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582294451550" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.810@0.23.1440.810" timestamp="1582329732906" />
+    <state width="1398" height="258" key="GridCell.Tab.1.right/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582375963089" />
     <state x="399" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1582371025339">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
@@ -197,5 +200,19 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582292347910" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/ArenaTest.java</url>
+          <line>76</line>
+          <properties class="ArenaTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

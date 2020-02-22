@@ -21,15 +21,33 @@ public class Fighter extends Character {
         iAffects.put(iAffect.getImplement(), iAffect);
     }
 
-    public void attack(Fighter fighterGettingHit, String iAttack){
+    public String findIAffectInEnemy(Fighter opponent, IAffect iAffect) {
+        String armour;
+        armour = "no armour";
+        for (String key : opponent.iAffects.keySet()) {
+            if (opponent.iAffects.get(key).getImplement().toString() == "armour") {
+                armour = "armour";
+            }
+        }
+        return armour;
+    }
+
+
+    public void attack(Fighter fighterGettingHit, IAffect weapon){
         int health = fighterGettingHit.getHealth();
-        int damage = this.iAffects.get(iAttack).getIAffectAmount();
+        int damage = this.iAffects.get(weapon.getImplement()).getIAffectAmount();
+        for (String key : fighterGettingHit.iAffects.keySet()) {
+            if(fighterGettingHit.iAffects.get(key).getImplement() == "armour"){
+                damage = damage / 2;
+            }
+        }
         fighterGettingHit.setHealth(health - damage);
 
         if (fighterGettingHit.getHealth() < 0){
             this.setTreasure(fighterGettingHit.getTreasure());
         };
     }
+
 
 
 }

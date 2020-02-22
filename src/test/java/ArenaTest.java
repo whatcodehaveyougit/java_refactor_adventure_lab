@@ -16,6 +16,7 @@ public class ArenaTest {
     Fighter baddie;
     Healer healer;
     IAffect sword;
+    IAffect armour;
 
     @Before
     public void before(){
@@ -23,6 +24,7 @@ public class ArenaTest {
         goodie1 = new Fighter("Gandalf1", 100, 0);
         sword = new IAffect("sword",20);
         bigSword = new IAffect("bigSword", 110);
+        armour = new IAffect("armour", 0);
         goodie.addIAffect(sword);
         baddie = new Fighter("Bob", 100, 20);
         healer = new Healer("Holly", 100, 5);
@@ -46,14 +48,14 @@ public class ArenaTest {
 
     @Test
     public void goodieCanAttackBaddie(){
-        goodie.attack(baddie, "sword");
+        goodie.attack(baddie, sword);
         assertEquals(80, baddie.getHealth());
     }
 
     @Test
     public void fighterCanBeHealed(){
-        goodie.attack(baddie, "sword");
-        goodie.attack(baddie, "sword");
+        goodie.attack(baddie, sword);
+        goodie.attack(baddie, sword);
         healer.healFighter(baddie);
         assertEquals(80, baddie.getHealth());
     }
@@ -67,7 +69,9 @@ public class ArenaTest {
     @Test
     public void fighterGivesTreasureAwayWhenTheyDie(){
         goodie1.addIAffect(bigSword);
-        goodie1.attack(baddie, "bigSword");
+        goodie1.attack(baddie, bigSword);
         assertEquals(20, goodie1.getTreasure());
     }
+
+
 }

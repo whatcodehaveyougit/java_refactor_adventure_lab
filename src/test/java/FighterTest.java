@@ -1,4 +1,5 @@
 import arsenal.IAffect;
+import characters.Fighter;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -7,47 +8,65 @@ import static junit.framework.TestCase.assertEquals;
 
 public class FighterTest {
 
-    characters.Fighter fighter;
+    characters.Fighter goodie;
+    Fighter baddie;
     IAffect sword;
+    IAffect armour;
 
     @Before
     public void before(){
-        fighter = new characters.Fighter("Jenkins", 100, 0);
+        goodie = new characters.Fighter("Jenkins", 100, 0);
+        baddie = new Fighter("Bob", 100, 0);
+        sword = new IAffect("sword", 20);
+        armour = new IAffect("armour", 0);
     }
 
     @Test
     public void canGetName(){
-        assertEquals("Jenkins", fighter.getName());
+        assertEquals("Jenkins", goodie.getName());
     }
 
     @Test
     public void canGetHealth(){
-        assertEquals(100, fighter.getHealth());
+        assertEquals(100, goodie.getHealth());
     }
 
     @Test
     public void canSetHealth(){
-        fighter.setHealth(90);
-        assertEquals(90, fighter.getHealth());
+        goodie.setHealth(90);
+        assertEquals(90, goodie.getHealth());
     }
 
     @Test
     public void canGetTreasure() {
-        fighter.getTreasure();
-        assertEquals(0, fighter.getTreasure());
+        goodie.getTreasure();
+        assertEquals(0, goodie.getTreasure());
     }
 
     @Test
     public void goodieStartsWithZeroWeapons(){
-        Assert.assertEquals(0, fighter.getNumberOfIAffects());
+        Assert.assertEquals(0, goodie.getNumberOfIAffects());
     }
 
 
     @Test
     public void canAddWeaponsToGoodie(){
-        fighter.addIAffect(sword);
-        fighter.addIAffect(sword);
-        assertEquals(2, fighter.getNumberOfIAffects());
+        goodie.addIAffect(sword);
+        assertEquals(1, goodie.getNumberOfIAffects());
+    }
+
+    @Test
+    public void canConfirmIfEnemyHasASpecificWeapon(){
+        goodie.addIAffect(armour);
+        assertEquals("armour", baddie.findIAffectInEnemy(goodie, armour));
+    }
+
+    @Test
+    public void fighterLosesLessHealthWithArmour() {
+        goodie.addIAffect(armour);
+        baddie.addIAffect(sword);
+        baddie.attack(goodie, sword);
+        assertEquals(90, goodie.getHealth());
     }
 
 
