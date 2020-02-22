@@ -10,6 +10,10 @@ public class Spell {
         this.damage = damage;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public int getDamage() {
         return this.damage;
     }

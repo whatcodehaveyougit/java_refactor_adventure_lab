@@ -1,4 +1,4 @@
-import arsenal.Weapon;
+import arsenal.IAffect;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -8,7 +8,7 @@ import static junit.framework.TestCase.assertEquals;
 public class FighterTest {
 
     characters.Fighter fighter;
-    Weapon sword;
+    IAffect sword;
 
     @Before
     public void before(){

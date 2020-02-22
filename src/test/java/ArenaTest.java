@@ -1,4 +1,5 @@
-import arsenal.Weapon;
+import Arenas.Arena;
+import arsenal.IAffect;
 import characters.Fighter;
 import characters.Healer;
 import org.junit.Before;
@@ -11,17 +12,17 @@ public class ArenaTest {
     Arena arena;
     Fighter goodie;
     Fighter goodie1;
-    Weapon bigSword;
+    IAffect bigSword;
     Fighter baddie;
     Healer healer;
-    Weapon sword;
+    IAffect sword;
 
     @Before
     public void before(){
         goodie = new Fighter("Gandalf", 100, 0);
         goodie1 = new Fighter("Gandalf1", 100, 0);
-        sword = new Weapon("sword",20);
-        bigSword = new Weapon("bigSword", 110);
+        sword = new IAffect("sword",20);
+        bigSword = new IAffect("bigSword", 110);
         goodie.addWeapon(sword);
         baddie = new Fighter("Bob", 100, 20);
         healer = new Healer("Holly", 100, 5);
@@ -51,8 +52,8 @@ public class ArenaTest {
 
     @Test
     public void fighterCanBeHealed(){
-        goodie.attack(baddie);
-        goodie.attack(baddie);
+        goodie.attack(baddie, 0);
+        goodie.attack(baddie, 0);
         healer.healFighter(baddie);
         assertEquals(80, baddie.getHealth());
     }
@@ -64,9 +65,9 @@ public class ArenaTest {
     }
 
     @Test
-    public void givesTreasureAwayWhenDie(){
+    public void fighterGivesTreasureAwayWhenTheyDie(){
         goodie1.addWeapon(bigSword);
         goodie1.attack(baddie);
-        assertEquals(20, goodie.getTreasure());
+        assertEquals(20, goodie1.getTreasure());
     }
 }

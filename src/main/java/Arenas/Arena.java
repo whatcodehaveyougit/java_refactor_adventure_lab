@@ -1,3 +1,5 @@
+package Arenas;
+
 import characters.Fighter;
 import characters.Healer;
 

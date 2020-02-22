@@ -28,4 +28,9 @@ public abstract class Character {
         return this.treasure;
     }
 
+    protected void setTreasure(int treasure) {
+        this.treasure = treasure;
+    }
+
+
 }

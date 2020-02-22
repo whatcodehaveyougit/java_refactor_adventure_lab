@@ -23,6 +23,11 @@ public class HealerTest {
         assertEquals(100, healer.getHealth());
     }
 
+    @Test
+    public void startsWithNoRemedies(){
+        assertEquals(0, healer.getNumberOfRemedies());
+    }
+
 
 
 }

@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a2799c8-4108-498f-8ec2-8d0561065bc6" name="Default Changelist" comment="" />
+    <list default="true" id="8a2799c8-4108-498f-8ec2-8d0561065bc6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arenas/JungleArena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arsenal/IAffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IAffectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SpellTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Arena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arenas/Arena.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arsenal/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arsenal/Spell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arsenal/Weapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Fighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Healer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ArenaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArenaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FighterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FighterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HealerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HealerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpellCasterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpellCasterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WeaponTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arsenal/Spell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arsenal/Spell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arsenal/Weapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/characters/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/Character.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/characters/Fighter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/Fighter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/characters/Healer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/Healer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ArenaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ArenaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FighterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FighterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HealerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HealerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SpellCasterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SpellCasterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WeaponTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +42,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +54,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Y7D3XCSlzOEKUJTvuQsktMvrQr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,44 +62,28 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="JUnit.ArenaTest.givesTreasureAwayWhenDie">
-    <configuration name="ArenaTest.fighterCanBeHealed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in java_lab_adventure">
+    <configuration name="All in java_lab_adventure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_lab_adventure" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArenaTest" />
-      <option name="METHOD_NAME" value="fighterCanBeHealed" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArenaTest.fighterCannotBeHealedAbove100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArenaTest.fighterGivesTreasureAwayDead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_lab_adventure" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ArenaTest" />
-      <option name="METHOD_NAME" value="fighterCannotBeHealedAbove100" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArenaTest.givesTreasureAwayWhenDie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_lab_adventure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArenaTest" />
-      <option name="METHOD_NAME" value="givesTreasureAwayWhenDie" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FighterTest.canGetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_lab_adventure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FighterTest" />
-      <option name="METHOD_NAME" value="canGetName" />
+      <option name="METHOD_NAME" value="fighterGivesTreasureAwayDead" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,13 +98,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpellCasterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_lab_adventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpellCasterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpellTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_lab_adventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpellTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArenaTest.givesTreasureAwayWhenDie" />
-        <item itemvalue="JUnit.ArenaTest.fighterCannotBeHealedAbove100" />
-        <item itemvalue="JUnit.ArenaTest.fighterCanBeHealed" />
+        <item itemvalue="JUnit.All in java_lab_adventure" />
         <item itemvalue="JUnit.HealerTest" />
-        <item itemvalue="JUnit.FighterTest.canGetName" />
+        <item itemvalue="JUnit.SpellTest" />
+        <item itemvalue="JUnit.SpellCasterTest" />
+        <item itemvalue="JUnit.ArenaTest.fighterGivesTreasureAwayDead" />
       </list>
     </recent_temporary>
   </component>
@@ -106,46 +140,70 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1582300740599">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582300740599" />
+    <state x="494" y="316" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582310753128">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="494" y="316" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1582310753128" />
     <state x="449" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582291049991">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="449" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1582291049991" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582310847955">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1582310847955" />
     <state x="483" y="160" key="#xdebugger.evaluate" timestamp="1582294434492">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="483" y="160" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1582294434492" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1582296500594">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1582329732905">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582296500594" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1582296500592">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582310943344" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1582329732905" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1582329732904">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582296500592" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1582296500591">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582310943340" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1582329732904" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1582329732903">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582296500591" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1582296500593">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582310943339" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1582329732903" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1582329732904">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582296500593" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1582294451551">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582310943343" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1582329732904" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1582329732907">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582294451551" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1582294451550">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.810@0.23.1440.810" timestamp="1582329732907" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1582329732906">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582294451550" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1582294451549">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.810@0.23.1440.810" timestamp="1582329732906" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1582329732905">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582294451549" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1582294451550">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.810@0.23.1440.810" timestamp="1582329732905" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1582329732906">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582294451550" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.810@0.23.1440.810" timestamp="1582329732906" />
+    <state x="399" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1582371025339">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="399" y="260" key="com.intellij.ide.util.TipDialog/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582371025339" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1582292347910">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
