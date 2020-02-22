@@ -2,33 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a2799c8-4108-498f-8ec2-8d0561065bc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arenas/JungleArena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arsenal/IAffect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IAffectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpellTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Arena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arenas/Arena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arsenal/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arsenal/Spell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arsenal/Weapon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arsenal/IAffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arsenal/IAffect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/characters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Fighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Healer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ArenaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArenaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FighterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FighterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HealerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HealerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpellCasterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpellCasterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WeaponTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/arsenal/Spell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arsenal/Spell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/arsenal/Weapon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/characters/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/Character.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IAffectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IAffectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Arena.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arsenal/IAffect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arsenal/IAffect.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/characters/Fighter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/Fighter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/characters/Healer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/Healer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ArenaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ArenaTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/FighterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FighterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HealerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HealerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SpellCasterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SpellCasterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WeaponTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/IAffectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IAffectTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in java_lab_adventure">
+  <component name="RunManager" selected="JUnit.ArenaTest">
     <configuration name="All in java_lab_adventure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_lab_adventure" />
       <option name="PACKAGE_NAME" value="" />
@@ -79,12 +64,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArenaTest.fighterGivesTreasureAwayDead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArenaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_lab_adventure" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ArenaTest" />
-      <option name="METHOD_NAME" value="fighterGivesTreasureAwayDead" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FighterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_lab_adventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FighterTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,19 +91,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpellCasterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IAffectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_lab_adventure" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpellCasterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpellTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_lab_adventure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SpellTest" />
+      <option name="MAIN_CLASS_NAME" value="IAffectTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArenaTest" />
         <item itemvalue="JUnit.All in java_lab_adventure" />
+        <item itemvalue="JUnit.FighterTest" />
+        <item itemvalue="JUnit.IAffectTest" />
         <item itemvalue="JUnit.HealerTest" />
-        <item itemvalue="JUnit.SpellTest" />
-        <item itemvalue="JUnit.SpellCasterTest" />
-        <item itemvalue="JUnit.ArenaTest.fighterGivesTreasureAwayDead" />
       </list>
     </recent_temporary>
   </component>
@@ -140,10 +124,11 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1582300740599">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="533" y="165" key="#com.intellij.ide.util.MemberChooser" timestamp="1582372565930">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582300740599" />
+    <state x="533" y="165" key="#com.intellij.ide.util.MemberChooser/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582372565930" />
     <state x="494" y="316" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582310753128">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -160,26 +145,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="483" y="160" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1582294434492" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1582329732905">
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1582373733296">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582310943344" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1582329732905" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1582329732904">
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582373733296" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1582373733294">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582310943340" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1582329732904" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1582329732903">
+    <state width="1398" height="208" key="GridCell.Tab.0.center/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582373733294" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1582373733293">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582310943339" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1582329732903" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1582329732904">
+    <state width="1398" height="208" key="GridCell.Tab.0.left/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582373733293" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1582373733295">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582310943343" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1582329732904" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582373733295" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1582329732907">
       <screen x="0" y="23" width="1440" height="810" />
     </state>

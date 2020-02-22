@@ -2,28 +2,28 @@ package characters;
 
 import arsenal.IAffect;
 
-import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Fighter extends Character {
 
-    private ArrayList<IAffect> weapons;
+    private HashMap<String, IAffect> iAffects;
 
     public Fighter(String name, int health, int treasure){
         super(name, health, treasure);
-        this.weapons = new ArrayList<IAffect>();
+        this.iAffects = new HashMap<String, IAffect>();
     }
 
-    public int getNumberOfWeapons() {
-        return weapons.size();
+    public int getNumberOfIAffects() {
+        return iAffects.size();
     }
 
-    public void addWeapon(IAffect weapon){
-        weapons.add(weapon);
+    public void addIAffect(IAffect iAffect){
+        iAffects.put(iAffect.getImplement(), iAffect);
     }
 
-    public void attack(Fighter fighterGettingHit, int weapon){
+    public void attack(Fighter fighterGettingHit, String iAttack){
         int health = fighterGettingHit.getHealth();
-        int damage = this.weapons.get(weapon).getDamage();
+        int damage = this.iAffects.get(iAttack).getIAffectAmount();
         fighterGettingHit.setHealth(health - damage);
 
         if (fighterGettingHit.getHealth() < 0){

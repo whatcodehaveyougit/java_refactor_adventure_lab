@@ -39,15 +39,15 @@ public class FighterTest {
 
     @Test
     public void goodieStartsWithZeroWeapons(){
-        Assert.assertEquals(0, fighter.getNumberOfWeapons());
+        Assert.assertEquals(0, fighter.getNumberOfIAffects());
     }
 
 
     @Test
     public void canAddWeaponsToGoodie(){
-        fighter.addWeapon(sword);
-        fighter.addWeapon(sword);
-        assertEquals(2, fighter.getNumberOfWeapons());
+        fighter.addIAffect(sword);
+        fighter.addIAffect(sword);
+        assertEquals(2, fighter.getNumberOfIAffects());
     }
 
 

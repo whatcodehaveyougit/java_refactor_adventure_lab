@@ -10,7 +10,11 @@ public class IAffect {
         this.affect = affect;
     }
 
-    public int getDamage() {
+    public String getImplement() {
+        return implement;
+    }
+
+    public int getIAffectAmount() {
         return this.affect;
     }
 
