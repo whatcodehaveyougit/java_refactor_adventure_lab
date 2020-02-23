@@ -2,21 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a2799c8-4108-498f-8ec2-8d0561065bc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arenas/Quest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JungleArenaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arenas/CaveArena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arenas/IArena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quest/Quest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QuestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Arenas/Arena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arenas/Arena.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Arenas/JungleArena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arenas/JungleArena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Fighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/characters/SpellCaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/SpellCaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ArenaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArenaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FighterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FighterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ArenaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Arenas/CaveArenaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FighterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Characters/FighterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HealerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Characters/HealerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IAffectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Arsenal/IAffectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JungleArenaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Arenas/JungleArenaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpellCasterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Characters/SpellCasterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Arsenal/SpellTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Arenas/Arena.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Arenas/Arena.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Arenas/JungleArena$Arena.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Arenas/JungleArena.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Arenas/JungleArena.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/characters/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/characters/Fighter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/Fighter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/characters/SpellCaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/SpellCaster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ArenaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ArenaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FighterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FighterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ArenaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FighterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HealerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/IAffectTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JungleArenaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SpellCasterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SpellTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -55,22 +65,24 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Arenas" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FighterTest.canConfirmIfEnemyHasASpecificWeapon">
-    <configuration name="All in java_lab_adventure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.QuestTest">
+    <configuration name="CaveArenaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_lab_adventure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="Arenas" />
+      <option name="MAIN_CLASS_NAME" value="Arenas.CaveArenaTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="FighterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_lab_adventure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FighterTest" />
+      <option name="PACKAGE_NAME" value="Characters" />
+      <option name="MAIN_CLASS_NAME" value="Characters.FighterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,29 +90,28 @@
     </configuration>
     <configuration name="FighterTest.canConfirmIfEnemyHasASpecificWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_lab_adventure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FighterTest" />
+      <option name="PACKAGE_NAME" value="Characters" />
+      <option name="MAIN_CLASS_NAME" value="Characters.FighterTest" />
       <option name="METHOD_NAME" value="canConfirmIfEnemyHasASpecificWeapon" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FighterTest.canSetTreasure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_lab_adventure" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FighterTest" />
-      <option name="METHOD_NAME" value="canSetTreasure" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="QuestTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FighterTest.fighterGivesTreasureAwayWhenTheyDie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuestTest.questsCanBeAdded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_lab_adventure" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FighterTest" />
-      <option name="METHOD_NAME" value="fighterGivesTreasureAwayWhenTheyDie" />
+      <option name="MAIN_CLASS_NAME" value="QuestTest" />
+      <option name="METHOD_NAME" value="questsCanBeAdded" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuestTest" />
+        <item itemvalue="JUnit.QuestTest.questsCanBeAdded" />
+        <item itemvalue="JUnit.CaveArenaTest" />
         <item itemvalue="JUnit.FighterTest.canConfirmIfEnemyHasASpecificWeapon" />
         <item itemvalue="JUnit.FighterTest" />
-        <item itemvalue="JUnit.All in java_lab_adventure" />
-        <item itemvalue="JUnit.FighterTest.fighterGivesTreasureAwayWhenTheyDie" />
-        <item itemvalue="JUnit.FighterTest.canSetTreasure" />
       </list>
     </recent_temporary>
   </component>
@@ -135,10 +146,11 @@
     </state>
     <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582300740599" />
     <state x="533" y="165" key="#com.intellij.ide.util.MemberChooser/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582461507319" />
-    <state x="494" y="316" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582310753128">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="494" y="307" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582465830311">
+      <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="494" y="316" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1582310753128" />
+    <state x="494" y="307" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582465830311" />
     <state x="449" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582291049991">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -151,54 +163,54 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="483" y="160" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1582294434492" />
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1582462918389">
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1582475377995">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582310943344" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1582329732905" />
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582462918389" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1582462918387">
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582475377995" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1582475377993">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582310943340" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1582329732904" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582462918387" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1582462918386">
+    <state width="1398" height="208" key="GridCell.Tab.0.center/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582475377993" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1582475377992">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582310943339" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1582329732903" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582462918386" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1582462918388">
+    <state width="1398" height="208" key="GridCell.Tab.0.left/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582475377992" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1582475377994">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582310943343" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1582329732904" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582462918388" />
-    <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1582462844928">
+    <state width="1398" height="208" key="GridCell.Tab.0.right/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582475377994" />
+    <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1582475235815">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582294451551" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.810@0.23.1440.810" timestamp="1582329732907" />
-    <state width="1398" height="258" key="GridCell.Tab.1.bottom/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582462844928" />
-    <state width="1398" height="258" key="GridCell.Tab.1.center" timestamp="1582462844927">
+    <state width="1398" height="258" key="GridCell.Tab.1.bottom/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582475235815" />
+    <state width="1398" height="258" key="GridCell.Tab.1.center" timestamp="1582475235813">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582294451550" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.810@0.23.1440.810" timestamp="1582329732906" />
-    <state width="1398" height="258" key="GridCell.Tab.1.center/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582462844927" />
-    <state width="1398" height="258" key="GridCell.Tab.1.left" timestamp="1582462844926">
+    <state width="1398" height="258" key="GridCell.Tab.1.center/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582475235813" />
+    <state width="1398" height="258" key="GridCell.Tab.1.left" timestamp="1582475235812">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582294451549" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.810@0.23.1440.810" timestamp="1582329732905" />
-    <state width="1398" height="258" key="GridCell.Tab.1.left/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582462844926" />
-    <state width="1398" height="258" key="GridCell.Tab.1.right" timestamp="1582462844927">
+    <state width="1398" height="258" key="GridCell.Tab.1.left/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582475235812" />
+    <state width="1398" height="258" key="GridCell.Tab.1.right" timestamp="1582475235814">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582294451550" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.810@0.23.1440.810" timestamp="1582329732906" />
-    <state width="1398" height="258" key="GridCell.Tab.1.right/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582462844927" />
+    <state width="1398" height="258" key="GridCell.Tab.1.right/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582475235814" />
     <state x="399" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1582371025339">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
@@ -212,12 +224,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/FighterTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/Characters/FighterTest.java</url>
           <line>106</line>
-          <properties class="FighterTest" method="fighterGivesTreasureAwayWhenTheyDie">
+          <properties class="Characters.FighterTest">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/quest/Quest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

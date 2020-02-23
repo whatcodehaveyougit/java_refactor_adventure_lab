@@ -1,3 +1,5 @@
+package Arsenal;
+
 import arsenal.IAffect;
 import org.junit.Before;
 import org.junit.Test;

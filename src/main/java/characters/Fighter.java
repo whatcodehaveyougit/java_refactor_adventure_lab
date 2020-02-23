@@ -53,6 +53,10 @@ public class Fighter extends Character {
             int playerTreasure = this.getTreasure();
             this.setTreasure(playerTreasure + treasure);
         }
+
+        if(this.getTreasure() == 20) {
+            this.
+        }
     }
 
 

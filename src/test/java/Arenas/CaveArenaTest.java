@@ -1,4 +1,7 @@
+package Arenas;
+
 import Arenas.Arena;
+import Arenas.JungleArena;
 import arsenal.IAffect;
 import characters.Fighter;
 import characters.Healer;
@@ -7,9 +10,9 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
-public class ArenaTest {
+public class CaveArenaTest {
 
-    Arena arena;
+    JungleArena jungleArena;
     Fighter goodie;
     Fighter baddie;
     Healer healer;
@@ -21,12 +24,12 @@ public class ArenaTest {
         sword = new IAffect("sword",20);
         goodie.addIAffect(sword);
         baddie = new Fighter("Bob", "goodie", 100, 0);
-        arena = new Arena(goodie, baddie, healer);
+        jungleArena = new JungleArena(goodie, baddie, healer);
     }
 
     @Test
     public void getFighter(){
-        assertEquals(goodie, arena.getFighter());
+        assertEquals(goodie, jungleArena.getFighter());
     }
 
     @Test
@@ -36,7 +39,7 @@ public class ArenaTest {
 
     @Test
     public void getHealer(){
-        assertEquals(healer, arena.getHealer());
+        assertEquals(healer, jungleArena.getHealer());
     }
 
 

@@ -1,3 +1,5 @@
+package Characters;
+
 import characters.Healer;
 import org.junit.Before;
 import org.junit.Test;

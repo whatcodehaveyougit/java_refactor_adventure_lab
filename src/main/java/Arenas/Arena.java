@@ -3,7 +3,7 @@ package Arenas;
 import characters.Fighter;
 import characters.Healer;
 
-public class Arena {
+public abstract class Arena implements IArena{
     private Fighter goodie;
     private Fighter baddie;
     private Healer healer;

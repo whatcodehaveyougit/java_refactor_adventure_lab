@@ -1,3 +1,5 @@
+package Characters;
+
 import arsenal.Spell;
 import characters.SpellCaster;
 import org.junit.Before;

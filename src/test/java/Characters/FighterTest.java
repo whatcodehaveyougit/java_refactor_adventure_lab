@@ -1,3 +1,5 @@
+package Characters;
+
 import arsenal.IAffect;
 import characters.Fighter;
 import characters.Healer;

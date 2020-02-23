@@ -1,3 +1,5 @@
+package Arsenal;
+
 import arsenal.Spell;
 import org.junit.Before;
 import org.junit.Test;
