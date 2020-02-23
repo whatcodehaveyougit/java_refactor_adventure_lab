@@ -7,10 +7,16 @@ import java.util.HashMap;
 public class Fighter extends Character {
 
     private HashMap<String, IAffect> iAffects;
+    private String goodieOrBaddie;
 
-    public Fighter(String name, int health, int treasure){
+    public Fighter(String name, String goodieOrBaddie, int health, int treasure){
         super(name, health, treasure);
+        this.goodieOrBaddie = goodieOrBaddie;
         this.iAffects = new HashMap<String, IAffect>();
+    }
+
+    public String getGoodieOrBaddie() {
+        return goodieOrBaddie;
     }
 
     public int getNumberOfIAffects() {
@@ -18,18 +24,16 @@ public class Fighter extends Character {
     }
 
     public void addIAffect(IAffect iAffect){
-        iAffects.put(iAffect.getImplement(), iAffect);
+        this.iAffects.put(iAffect.getImplement(), iAffect);
     }
 
     public String findIAffectInEnemy(Fighter opponent, IAffect iAffect) {
-        String armour;
-        armour = "no armour";
         for (String key : opponent.iAffects.keySet()) {
-            if (opponent.iAffects.get(key).getImplement().toString() == "armour") {
-                armour = "armour";
+            if (opponent.iAffects.get(key).getImplement().toString() == iAffect.getImplement().toString()) {
+                return "They have " + iAffect.getImplement();
             }
         }
-        return armour;
+        return "The don't have " + iAffect.getImplement();
     }
 
 
@@ -44,8 +48,11 @@ public class Fighter extends Character {
         fighterGettingHit.setHealth(health - damage);
 
         if (fighterGettingHit.getHealth() < 0){
-            this.setTreasure(fighterGettingHit.getTreasure());
-        };
+            int treasure = fighterGettingHit.getTreasure();
+            fighterGettingHit.setTreasure(0);
+            int playerTreasure = this.getTreasure();
+            this.setTreasure(playerTreasure + treasure);
+        }
     }
 
 

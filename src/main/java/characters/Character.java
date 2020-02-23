@@ -6,6 +6,7 @@ public abstract class Character {
     private int health;
     private int treasure;
 
+
     public Character(String name, int health, int treasure){
         this.name = name;
         this.health = health;
