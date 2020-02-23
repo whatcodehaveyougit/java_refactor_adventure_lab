@@ -87,7 +87,7 @@ public class FighterTest {
 
     @Test
     public void goodieCanAttackBaddie(){
-        goodie.attack(baddie, sword);
+        goodie.attack(baddie, sword, goodie)s;
         assertEquals(80, baddie.getHealth());
     }
 

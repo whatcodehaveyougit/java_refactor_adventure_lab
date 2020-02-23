@@ -1,5 +1,6 @@
 package characters;
 
+import Arenas.JungleArena;
 import arsenal.IAffect;
 
 import java.util.HashMap;
@@ -37,7 +38,7 @@ public class Fighter extends Character {
     }
 
 
-    public void attack(Fighter fighterGettingHit, IAffect weapon){
+    public void attack(Fighter fighterGettingHit, IAffect weapon, Fighter goodie){
         int health = fighterGettingHit.getHealth();
         int damage = this.iAffects.get(weapon.getImplement()).getIAffectAmount();
         for (String key : fighterGettingHit.iAffects.keySet()) {
@@ -55,8 +56,10 @@ public class Fighter extends Character {
         }
 
         if(this.getTreasure() == 20) {
-            this.
+            JungleArena.setupJungleArena(Fighter this.getTreasure() )
         }
+
+
     }
 
 
