@@ -17,7 +17,6 @@ import static junit.framework.TestCase.assertEquals;
 
 public class QuestTest {
 
-    String arenaName;
     Quest quest;
     IArena jungleArena;
     IArena caveArena;
@@ -35,8 +34,8 @@ public class QuestTest {
         baddie2 = new Fighter("Bill", "baddie", 100, 20);
         healer = new Healer("Holly", 100, 5);
         sword = new IAffect("sword", 20);
-        jungleArena = new JungleArena(arenaName, goodie, baddie, healer);
-        caveArena = new CaveArena(arenaName,goodie, baddie, healer, baddie2);
+        jungleArena = new JungleArena("Jungle");
+        caveArena = new CaveArena("Cave", baddie);
         ArrayList<IArena> arenas = new ArrayList<IArena>();
         quest = new Quest(arenas);
     }
@@ -53,11 +52,11 @@ public class QuestTest {
         assertEquals(2, quest.getNumberOfArenas());
     }
 
-    @Test
-    public void fighterEntersARoom() {
-        quest.addArena(jungleArena);
-        quest.addArena(caveArena);
-        quest.fighterEntersRoom(goodie);
-        assertEquals("Jenkins is in the jungle!", );
-    }
+//    @Test
+//    public void fighterEntersARoom() {
+//        quest.addArena(jungleArena);
+//        quest.addArena(caveArena);
+//        quest.fighterEntersRoom(goodie);
+//        assertEquals("Jenkins is in the jungle!", );
+//    }
 }

@@ -5,20 +5,20 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Arenas/Arena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arenas/Arena.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Arenas/CaveArena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arenas/CaveArena.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Arenas/IArena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arenas/IArena.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Arenas/JungleArena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arenas/JungleArena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Fighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quest/Quest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quest/Quest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Arenas/CaveArenaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Arenas/CaveArenaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Arenas/JungleArenaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Arenas/JungleArenaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Characters/FighterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Characters/FighterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/QuestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QuestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Arenas/Arena.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Arenas/Arena.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Arenas/CaveArena.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Arenas/CaveArena.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Arenas/IArena.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Arenas/IArena.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Arenas/JungleArena.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Arenas/JungleArena.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/characters/Fighter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/Fighter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/quest/Quest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/quest/Quest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Arenas/CaveArenaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Arenas/CaveArenaTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Arenas/JungleArenaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Arenas/JungleArenaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Characters/FighterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Characters/FighterTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/QuestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/QuestTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,8 +63,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JungleArenaTest.getArenaName">
-    <configuration name="JungleArenaTest.canSetupBattlefieldAndGetGoodieNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JungleArenaTest">
+    <configuration name="JungleArenaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_lab_adventure" />
       <extension name="coverage">
         <pattern>
@@ -74,7 +74,54 @@
       </extension>
       <option name="PACKAGE_NAME" value="Arenas" />
       <option name="MAIN_CLASS_NAME" value="Arenas.JungleArenaTest" />
-      <option name="METHOD_NAME" value="canSetupBattlefieldAndGetGoodieNames" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JungleArenaTest.addCharacterToRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_lab_adventure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arenas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Arenas" />
+      <option name="MAIN_CLASS_NAME" value="Arenas.JungleArenaTest" />
+      <option name="METHOD_NAME" value="addCharacterToRoom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JungleArenaTest.addFighterToRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_lab_adventure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arenas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Arenas" />
+      <option name="MAIN_CLASS_NAME" value="Arenas.JungleArenaTest" />
+      <option name="METHOD_NAME" value="addFighterToRoom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JungleArenaTest.addHealerToRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_lab_adventure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arenas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Arenas" />
+      <option name="MAIN_CLASS_NAME" value="Arenas.JungleArenaTest" />
+      <option name="METHOD_NAME" value="addHealerToRoom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,42 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_lab_adventure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QuestTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuestTest.questBeginsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_lab_adventure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QuestTest" />
-      <option name="METHOD_NAME" value="questBeginsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuestTest.questsCanBeAdded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_lab_adventure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QuestTest" />
-      <option name="METHOD_NAME" value="questsCanBeAdded" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JungleArenaTest" />
+        <item itemvalue="JUnit.JungleArenaTest.addFighterToRoom" />
+        <item itemvalue="JUnit.JungleArenaTest.addHealerToRoom" />
+        <item itemvalue="JUnit.JungleArenaTest.addCharacterToRoom" />
         <item itemvalue="JUnit.JungleArenaTest.getArenaName" />
-        <item itemvalue="JUnit.QuestTest" />
-        <item itemvalue="JUnit.QuestTest.questsCanBeAdded" />
-        <item itemvalue="JUnit.QuestTest.questBeginsEmpty" />
-        <item itemvalue="JUnit.JungleArenaTest.canSetupBattlefieldAndGetGoodieNames" />
       </list>
     </recent_temporary>
   </component>
@@ -149,11 +167,11 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="165" key="#com.intellij.ide.util.MemberChooser" timestamp="1582490443531">
+    <state x="533" y="165" key="#com.intellij.ide.util.MemberChooser" timestamp="1582491651234">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582300740599" />
-    <state x="533" y="165" key="#com.intellij.ide.util.MemberChooser/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582490443531" />
+    <state x="533" y="165" key="#com.intellij.ide.util.MemberChooser/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582491651234" />
     <state x="494" y="307" width="451" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582465830311">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
@@ -171,58 +189,58 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="483" y="160" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1582294434492" />
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1582490529472">
+    <state width="1398" height="258" key="GridCell.Tab.0.bottom" timestamp="1582493220211">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582310943344" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1582329732905" />
     <state width="1398" height="208" key="GridCell.Tab.0.bottom/1440.-144.1440.810/0.23.1440.877@0.23.1440.877" timestamp="1582483455641" />
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582490529472" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1582490529471">
+    <state width="1398" height="258" key="GridCell.Tab.0.bottom/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582493220211" />
+    <state width="1398" height="258" key="GridCell.Tab.0.center" timestamp="1582493220210">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582310943340" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1582329732904" />
     <state width="1398" height="208" key="GridCell.Tab.0.center/1440.-144.1440.810/0.23.1440.877@0.23.1440.877" timestamp="1582483455640" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582490529471" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1582490529471">
+    <state width="1398" height="258" key="GridCell.Tab.0.center/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582493220210" />
+    <state width="1398" height="258" key="GridCell.Tab.0.left" timestamp="1582493220210">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582310943339" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1582329732903" />
     <state width="1398" height="208" key="GridCell.Tab.0.left/1440.-144.1440.810/0.23.1440.877@0.23.1440.877" timestamp="1582483455638" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582490529471" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1582490529471">
+    <state width="1398" height="258" key="GridCell.Tab.0.left/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582493220210" />
+    <state width="1398" height="258" key="GridCell.Tab.0.right" timestamp="1582493220211">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582310943343" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1582329732904" />
     <state width="1398" height="208" key="GridCell.Tab.0.right/1440.-144.1440.810/0.23.1440.877@0.23.1440.877" timestamp="1582483455641" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582490529471" />
-    <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1582476729006">
+    <state width="1398" height="258" key="GridCell.Tab.0.right/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582493220211" />
+    <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1582493220214">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582294451551" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.810@0.23.1440.810" timestamp="1582329732907" />
-    <state width="1398" height="258" key="GridCell.Tab.1.bottom/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582476729006" />
-    <state width="1398" height="258" key="GridCell.Tab.1.center" timestamp="1582476729004">
+    <state width="1398" height="258" key="GridCell.Tab.1.bottom/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582493220214" />
+    <state width="1398" height="258" key="GridCell.Tab.1.center" timestamp="1582493220213">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582294451550" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.810@0.23.1440.810" timestamp="1582329732906" />
-    <state width="1398" height="258" key="GridCell.Tab.1.center/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582476729004" />
-    <state width="1398" height="258" key="GridCell.Tab.1.left" timestamp="1582476729003">
+    <state width="1398" height="258" key="GridCell.Tab.1.center/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582493220213" />
+    <state width="1398" height="258" key="GridCell.Tab.1.left" timestamp="1582493220212">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582294451549" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.810@0.23.1440.810" timestamp="1582329732905" />
-    <state width="1398" height="258" key="GridCell.Tab.1.left/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582476729003" />
-    <state width="1398" height="258" key="GridCell.Tab.1.right" timestamp="1582476729005">
+    <state width="1398" height="258" key="GridCell.Tab.1.left/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582493220212" />
+    <state width="1398" height="258" key="GridCell.Tab.1.right" timestamp="1582493220213">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582294451550" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.810@0.23.1440.810" timestamp="1582329732906" />
-    <state width="1398" height="258" key="GridCell.Tab.1.right/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582476729005" />
+    <state width="1398" height="258" key="GridCell.Tab.1.right/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582493220213" />
     <state x="399" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1582371025339">
       <screen x="0" y="23" width="1440" height="810" />
     </state>

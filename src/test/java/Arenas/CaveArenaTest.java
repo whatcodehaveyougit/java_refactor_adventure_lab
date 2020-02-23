@@ -24,24 +24,13 @@ public class CaveArenaTest {
         sword = new IAffect("sword",20);
         goodie.addIAffect(sword);
         baddie = new Fighter("Bob", "goodie", 100, 0);
-        jungleArena = new JungleArena("Jungle", goodie, baddie, healer);
-    }
-
-    @Test
-    public void getFighter(){
-        assertEquals(goodie, jungleArena.getFighter());
+        jungleArena = new JungleArena("Jungle");
     }
 
     @Test
     public void fighterCanGetWeapon(){
         assertEquals(1, goodie.getNumberOfIAffects());
     }
-
-    @Test
-    public void getHealer(){
-        assertEquals(healer, jungleArena.getHealer());
-    }
-
 
 
 }
