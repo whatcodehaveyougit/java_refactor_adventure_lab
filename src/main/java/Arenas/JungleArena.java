@@ -5,8 +5,8 @@ import characters.Healer;
 
 public class JungleArena extends Arena {
 
-        public JungleArena(Fighter goodie, Fighter baddie, Healer healer) {
-           super(goodie, baddie, healer);
+        public JungleArena(String arenaName, Fighter goodie, Fighter baddie, Healer healer) {
+           super(arenaName, goodie, baddie, healer);
         }
 
         public void setupJungleArena(Fighter goodie, Fighter baddie, Healer healer) {
@@ -18,6 +18,10 @@ public class JungleArena extends Arena {
 
         public String jungleGetGoodieName() {
             return this.goodie.getName();
+        }
+
+        public String goodieEntersJungleArena(Fighter goodie) {
+            return goodie.getName() + " is in the jungle!";
         }
 
 }

@@ -2,6 +2,7 @@ package quest;
 
 import Arenas.Arena;
 import Arenas.IArena;
+import characters.Fighter;
 
 import java.util.ArrayList;
 
@@ -20,5 +21,11 @@ public class Quest {
 
     public void addArena(IArena arena){
         this.battleArenas.add(arena);
+    }
+
+    public void fighterEntersRoom(Fighter goodie) {
+        if (goodie.getTreasure() == 0) {
+
+        }
     }
 }

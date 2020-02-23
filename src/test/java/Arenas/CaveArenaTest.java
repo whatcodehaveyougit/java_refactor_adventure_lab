@@ -24,7 +24,7 @@ public class CaveArenaTest {
         sword = new IAffect("sword",20);
         goodie.addIAffect(sword);
         baddie = new Fighter("Bob", "goodie", 100, 0);
-        jungleArena = new JungleArena(goodie, baddie, healer);
+        jungleArena = new JungleArena("Jungle", goodie, baddie, healer);
     }
 
     @Test

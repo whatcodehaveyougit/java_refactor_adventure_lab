@@ -39,6 +39,8 @@ public class Fighter extends Character {
     }
 
 
+
+
     public void attack(Fighter fighterGettingHit, IAffect weapon, Fighter goodie){
         int health = fighterGettingHit.getHealth();
         int damage = this.iAffects.get(weapon.getImplement()).getIAffectAmount();

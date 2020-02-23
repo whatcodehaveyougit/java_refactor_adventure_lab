@@ -23,7 +23,7 @@ public class JungleArenaTest {
         baddie = new Fighter("Bob", "baddie", 100, 20);
         healer = new Healer("Holly", 100, 5);
         sword = new IAffect("sword", 20);
-        jungleArena = new JungleArena(goodie, baddie, healer);
+        jungleArena = new JungleArena("Jungle", goodie, baddie, healer);
     }
 
     @Test
@@ -51,5 +51,8 @@ public class JungleArenaTest {
         assertEquals("Jenkins", jungleArena.jungleGetGoodieName());
     }
 
-
+    @Test
+    public void getArenaName() {
+        assertEquals("Jungle", jungleArena.getArenaName());
+    }
 }

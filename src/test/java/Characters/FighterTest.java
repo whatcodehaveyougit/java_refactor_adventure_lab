@@ -1,5 +1,6 @@
 package Characters;
 
+import Arenas.IArena;
 import arsenal.IAffect;
 import characters.Fighter;
 import characters.Healer;
@@ -11,6 +12,7 @@ import static junit.framework.TestCase.assertEquals;
 
 public class FighterTest {
 
+    IArena arenas;
     Fighter goodie;
     Fighter goodie1;
     Fighter baddie;
