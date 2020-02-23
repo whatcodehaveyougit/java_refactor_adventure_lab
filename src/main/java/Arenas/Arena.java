@@ -3,10 +3,12 @@ package Arenas;
 import characters.Fighter;
 import characters.Healer;
 
-public abstract class Arena {
-    private Fighter goodie;
-    private Fighter baddie;
-    private Healer healer;
+import java.util.ArrayList;
+
+public abstract class Arena implements IArena {
+    protected Fighter goodie;
+    protected Fighter baddie;
+    protected Healer healer;
 
     public Arena(Fighter goodie, Fighter baddie, Healer healer){
         this.goodie = goodie;
@@ -21,6 +23,8 @@ public abstract class Arena {
     public Healer getHealer() {
         return this.healer;
     }
+
+
 
 
 }

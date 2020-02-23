@@ -81,20 +81,20 @@ public class FighterTest {
     public void fighterLosesLessHealthWithArmour() {
         goodie.addIAffect(armour);
         baddie.addIAffect(sword);
-        baddie.attack(goodie, sword);
+        baddie.attack(goodie, sword, baddie);
         assertEquals(90, goodie.getHealth());
     }
 
     @Test
     public void goodieCanAttackBaddie(){
-        goodie.attack(baddie, sword, goodie)s;
+        goodie.attack(baddie, sword, goodie);
         assertEquals(80, baddie.getHealth());
     }
 
     @Test
     public void fighterCanBeHealed(){
-        goodie.attack(baddie, sword);
-        goodie.attack(baddie, sword);
+        goodie.attack(baddie, sword, goodie);
+        goodie.attack(baddie, sword, goodie);
         healer.healFighter(baddie);
         assertEquals(80, baddie.getHealth());
     }
@@ -108,7 +108,7 @@ public class FighterTest {
     @Test
     public void fighterGivesTreasureAwayWhenTheyDie(){
         goodie1.addIAffect(bigSword);
-        goodie1.attack(baddie, bigSword);
+        goodie1.attack(baddie, bigSword, goodie1);
         assertEquals(20, goodie1.getTreasure());
     }
 

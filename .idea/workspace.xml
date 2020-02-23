@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a2799c8-4108-498f-8ec2-8d0561065bc6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arenas/IArena.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Arenas/Arena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arenas/Arena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Arenas/IArena.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Arenas/JungleArena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arenas/JungleArena.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Character.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/characters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Fighter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/quest/Quest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quest/Quest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Arenas/JungleArenaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Arenas/JungleArenaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Characters/FighterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Characters/FighterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/QuestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QuestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Arenas/Arena.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Arenas/Arena.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Arenas/IArena.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Arenas/JungleArena.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Arenas/JungleArena.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/characters/Fighter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/Fighter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/quest/Quest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Arenas/JungleArenaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Arenas/JungleArenaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/QuestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Characters/FighterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Characters/FighterTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,38 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JungleArenaTest.canSetupBattlefield">
-    <configuration name="JungleArenaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_lab_adventure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arenas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Arenas" />
-      <option name="MAIN_CLASS_NAME" value="Arenas.JungleArenaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JungleArenaTest.canGetHealth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_lab_adventure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arenas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Arenas" />
-      <option name="MAIN_CLASS_NAME" value="Arenas.JungleArenaTest" />
-      <option name="METHOD_NAME" value="canGetHealth" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.QuestTest">
     <configuration name="JungleArenaTest.canSetupBattlefield" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_lab_adventure" />
       <extension name="coverage">
@@ -109,7 +77,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JungleArenaTest.canSetupTheBattlefield" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JungleArenaTest.canSetupBattlefieldAndGetGoodieNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_lab_adventure" />
       <extension name="coverage">
         <pattern>
@@ -119,23 +87,36 @@
       </extension>
       <option name="PACKAGE_NAME" value="Arenas" />
       <option name="MAIN_CLASS_NAME" value="Arenas.JungleArenaTest" />
-      <option name="METHOD_NAME" value="canSetupTheBattlefield" />
+      <option name="METHOD_NAME" value="canSetupBattlefieldAndGetGoodieNames" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JungleArenaTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_lab_adventure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arenas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Arenas" />
-      <option name="MAIN_CLASS_NAME" value="Arenas.JungleArenaTest" />
-      <option name="METHOD_NAME" value="getName" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuestTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestTest.questBeginsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_lab_adventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuestTest" />
+      <option name="METHOD_NAME" value="questBeginsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestTest.questsCanBeAdded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_lab_adventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuestTest" />
+      <option name="METHOD_NAME" value="questsCanBeAdded" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuestTest" />
+        <item itemvalue="JUnit.QuestTest.questsCanBeAdded" />
+        <item itemvalue="JUnit.QuestTest.questBeginsEmpty" />
+        <item itemvalue="JUnit.JungleArenaTest.canSetupBattlefieldAndGetGoodieNames" />
         <item itemvalue="JUnit.JungleArenaTest.canSetupBattlefield" />
-        <item itemvalue="JUnit.JungleArenaTest" />
-        <item itemvalue="JUnit.JungleArenaTest.canGetHealth" />
-        <item itemvalue="JUnit.JungleArenaTest.getName" />
-        <item itemvalue="JUnit.JungleArenaTest.canSetupTheBattlefield" />
       </list>
     </recent_temporary>
   </component>
@@ -187,30 +168,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="483" y="160" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1582294434492" />
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1582477698802">
-      <screen x="0" y="23" width="1440" height="810" />
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1582483455641">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582310943344" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1582329732905" />
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582477698802" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1582477698800">
-      <screen x="0" y="23" width="1440" height="810" />
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom/1440.-144.1440.810/0.23.1440.877@0.23.1440.877" timestamp="1582483455641" />
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582481439598" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1582483455640">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582310943340" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1582329732904" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582477698800" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1582477698800">
-      <screen x="0" y="23" width="1440" height="810" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center/1440.-144.1440.810/0.23.1440.877@0.23.1440.877" timestamp="1582483455640" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582481439596" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1582483455638">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582310943339" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1582329732903" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582477698800" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1582477698801">
-      <screen x="0" y="23" width="1440" height="810" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left/1440.-144.1440.810/0.23.1440.877@0.23.1440.877" timestamp="1582483455638" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582481439595" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1582483455641">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582310943343" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1582329732904" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582477698801" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right/1440.-144.1440.810/0.23.1440.877@0.23.1440.877" timestamp="1582483455641" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right/1440.-144.1440.877/0.23.1440.810@0.23.1440.810" timestamp="1582481439598" />
     <state width="1398" height="258" key="GridCell.Tab.1.bottom" timestamp="1582476729006">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
@@ -257,7 +242,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/quest/Quest.java</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>

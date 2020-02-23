@@ -1,5 +1,6 @@
 package characters;
 
+import Arenas.Arena;
 import Arenas.JungleArena;
 import arsenal.IAffect;
 
@@ -54,11 +55,6 @@ public class Fighter extends Character {
             int playerTreasure = this.getTreasure();
             this.setTreasure(playerTreasure + treasure);
         }
-
-        if(this.getTreasure() == 20) {
-            JungleArena.setupJungleArena(Fighter this.getTreasure() )
-        }
-
 
     }
 

@@ -47,8 +47,8 @@ public class JungleArenaTest {
     }
 
     @Test
-    public void canSetupBattlefield() {
-        assertEquals("test", jungleArena.setupJungleArena(goodie, baddie, healer));
+    public void canSetupBattlefieldAndGetGoodieNames() {
+        assertEquals("Jenkins", jungleArena.jungleGetGoodieName());
     }
 
 
